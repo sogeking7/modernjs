@@ -32,6 +32,7 @@
     this.name = "John";
     this.isAdmin = false;
   })();
+  console.log(user);
 }
 
 {
@@ -54,7 +55,8 @@
 
 {
   function User(name) {
-    if (!new.target) { // if you run me without new
+    if (!new.target) {
+      // if you run me without new
       return new User(name); // ...I will add new for you
     }
     this.name = name;

@@ -12,6 +12,7 @@
 }
 
 {
+  const obj = {};
   const key = "name";
   console.log(obj.key); // undefined
 
@@ -88,6 +89,7 @@ const codes = {
   "1x": "Argentina",
   "2x": "Chile",
   "0x": "Peru",
+  "6": "Bolivia",
 };
 
 for (let code in codes) {

@@ -50,3 +50,6 @@ console.log(area); // 0
 
 // let x = 1 && 2 ?? 3; // Syntax error
 
+const t = null;
+const a = 23;
+console.log(t ?? "hello")

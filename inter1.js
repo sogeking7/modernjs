@@ -16,11 +16,12 @@ console.log(first()); // { hello: 'world!' }
 console.log(second()); // undefined
 
 // # 2
+console.log("2 example: ");
 var a = 5;
 var writeA = function () {
   console.log(a);
-  
-  var a = 10;
+
+  // var a = 10;
 };
 console.log(writeA()); // undefined
 
@@ -28,16 +29,15 @@ console.log(writeA()); // undefined
 
 // # 3
 
-for (let i = 0; i < 6; i++) {
-  setTimeout(function () {
-    console.log(i);
-  }, i * 600);
-}
-
+// for (let i = 0; i < 6; i++) {
+//   setTimeout(function () {
+//     console.log(i);
+//   }, i * 600);
+// }
 
 // # 4
 const something = {
-  object:  "Javascipt",
+  object: "Javascipt",
   hello() {
     return `Hello, ${this.object}!`;
   },
@@ -45,8 +45,8 @@ const something = {
   // this: typeof globalThis or window
   goodbye: () => {
     return `Hello, ${this.object}!`;
-  }
-}
+  },
+};
 
 console.log(something.hello());
 console.log(something.goodbye());
@@ -56,13 +56,13 @@ console.log(something.goodbye());
 var a = 1;
 function first() {
   // a++;
-  var a = 2;
+  var a = 6;
   function second() {
-    a ++;
+    a++;
     var a = 3;
     console.log(a);
   }
   second();
 }
-first(); 
+first();
 // 3

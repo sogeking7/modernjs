@@ -1,3 +1,4 @@
+
 // 1) Thread of execution
 
 // In computer science, a thread typically refers to a sequence of software code the computer and its CPU must execute.
@@ -43,3 +44,4 @@ var sum2 = getSum(3, 4);
 // line 4: Invokes the getSum() function and creates a new function execution context
 
 // 3) Asynchronous Javascript
+

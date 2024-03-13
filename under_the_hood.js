@@ -1,4 +1,3 @@
-
 // 1) Thread of execution
 
 // In computer science, a thread typically refers to a sequence of software code the computer and its CPU must execute.
@@ -19,11 +18,11 @@
 //  1. Execute code line by line
 //  2. Create a new execution context for each function call
 
-var x = 100 //
-var y = 50
-function getSum (a, b) {
+var x = 100; //
+var y = 50;
+function getSum(a, b) {
   var sum = a + b;
-  return sum
+  return sum;
 }
 var sum1 = getSum(x, y);
 var sum2 = getSum(3, 4);
@@ -34,9 +33,9 @@ var sum2 = getSum(3, 4);
 // line 2: y variable is allocated memory and stores undefined
 // line 3: getSum function is allocated memory and stores all the code
 // line 4: sum1 variable is allocated memory and stores undefined
-// line 5: sum2 variable is allocated memory and stores undefined 
+// line 5: sum2 variable is allocated memory and stores undefined
 
-// Execution Phase 
+// Execution Phase
 
 // line 1: Places the value 100 in the x variable
 // line 2: Places the value 50 in the y variable
@@ -44,4 +43,14 @@ var sum2 = getSum(3, 4);
 // line 4: Invokes the getSum() function and creates a new function execution context
 
 // 3) Asynchronous Javascript
+
+// scope(область видимости) = доступность перемен в функций (глобальный и локаольный)
+// переменные обьявленные вне функций но доступные внутри функций - глобальные
+// переменные обьявленные внутри функций - локальные
+//
+// hoisting - поднятие переменных и функций в начало файла
+// var, function expression - поднимаются в начало файла
+//
+// closure - замыкание - это момент когда функция имеет доступ к переменным из вышестоящего scope
+// function внутри function / 
 

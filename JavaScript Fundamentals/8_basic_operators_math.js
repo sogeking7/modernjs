@@ -73,10 +73,10 @@ x++; // returns previous value and increase by 1
 // Sometimes, people use it in more complex constructs to put several actions in one line.
 
 let p = (1 + 2, 3 + 4);
-console.log(p);
+console.log(p); // 7
 
 p = 1 + 2, 3 + 4; // --> p = (1 + 2), 3 + 4
-console.log(p);
+console.log("p", p); // 3
 
 // parentheses important
 

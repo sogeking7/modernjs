@@ -1,3 +1,5 @@
+// Javascript is single thread
+
 // 1) Thread of execution
 
 // In computer science, a thread typically refers to a sequence of software code the computer and its CPU must execute.

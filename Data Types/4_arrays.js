@@ -27,6 +27,8 @@
   // unshift add the element to the beginning of the array
   let arr = [1, 2, 3, 4];
   arr.unshift(0);
+  arr.unshift(999);
+
   console.log(arr);
 }
 
